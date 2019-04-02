@@ -16,7 +16,7 @@ services:
     build: ./Front-End
   room:
     image: room-api
-    build: ./Room-Api
+    build: ./Rooms-Api
   tenant: 
     image: tenant-api
     build: ./Tenant-Api

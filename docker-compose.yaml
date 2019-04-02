@@ -13,24 +13,24 @@ services:
       - room
   front: 
     image: front-end
-    build: ./front-end
+    build: ./Front-End
   room:
     image: room-api
-    build: ./room-api
+    build: ./Room-Api
   tenant: 
     image: tenant-api
-    build: ./tenant-api
+    build: ./Tenant-Api
   building:
     image: building-api
-    build: ./building-api
+    build: ./Building-Api
   landlord: 
     image: landlord-api
-    build: ./landlord-api
+    build: ./Landlord-Api
   eureka:
     image: eureka-api
-    build: ./eureka-api
+    build: ./Eureka-Api
   maintenance: 
     image: maintenance-api
-    build: ./maintenance-api
+    build: ./Maintenance-Api
   mongo:
     image: mongo

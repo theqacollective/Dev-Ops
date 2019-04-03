@@ -23,9 +23,6 @@ services:
   building:
     image: building-api
     build: ./Building-Api
-  landlord: 
-    image: landlord-api
-    build: ./Landlord-Api
   eureka:
     image: eureka-api
     build: ./Eureka-Api
